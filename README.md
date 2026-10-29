@@ -4,7 +4,7 @@ Sample GCL programs for the [GCL VS Code extension](https://marketplace.visualst
 
 Use this repository in GitHub Codespaces or in a local VS Code Dev Container with Docker.
 
-The Dev Container uses Microsoft's Ubuntu 24.04 base image and installs `scmlab.gcl-vscode@0.0.4` from the Marketplace inside the container. The platform-specific extension includes the `gcl` language server and Z3. No separate installation of GCL, Z3, or Haskell is needed.
+The Dev Container uses Microsoft's Ubuntu 26.04 base image and installs `scmlab.gcl-vscode@0.0.4` from the Marketplace inside the container. The platform-specific extension includes the `gcl` language server and Z3. No separate installation of GCL, Z3, or Haskell is needed.
 
 ## Run locally with VS Code and Docker
 
@@ -46,4 +46,4 @@ The extension version is specified in `.devcontainer/devcontainer.json`. The bun
 
 The `publisher.extension@version` syntax installs a specific version. VS Code supports [pinning versions against automatic updates](https://code.visualstudio.com/updates/v1_75#_pin-an-extension-version-from-cli). For this course, keep GCL at **0.0.4** and leave automatic updates disabled for this extension. You can check the installed version and its **Auto Update** option on the extension's details page inside the container.
 
-If the extension version is changed in the configuration, run **Dev Containers: Rebuild Container** locally or **Codespaces: Rebuild Container** in Codespaces to apply it.
+If the container image or extension version is changed in the configuration, run **Dev Containers: Rebuild Container** locally or **Codespaces: Rebuild Container** in Codespaces to apply it.
