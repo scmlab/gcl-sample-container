@@ -1,0 +1,10 @@
+{
+  "name": "GCL 0.0.4",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": ["scmlab.gcl-vscode@0.0.4"]
+    }
+  }
+}
