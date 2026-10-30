@@ -1,6 +1,12 @@
+# gcl-sample-container
+
+Create a GCL codespace or resume your most recent one:
+
 https://codespaces.new/scmlab/gcl-sample-container?quickstart=1
 
-# gcl-sample-container
+View and manage your existing codespaces:
+
+https://github.com/codespaces/
 
 Sample GCL programs for the [GCL VS Code extension](https://marketplace.visualstudio.com/items?itemName=scmlab.gcl-vscode), version **0.0.4**.
 
@@ -26,8 +32,8 @@ code gcl-sample-container
 
 1. Choose **Reopen in Container** when prompted. You can also run **Dev Containers: Reopen in Container** from the Command Palette.
 2. Wait for the container setup and extension installation to finish. The first launch requires an internet connection to download the image and extension.
-3. Open `increment.gcl`.
-4. Run **GCL: Reload** from the Command Palette to see its proof obligations and results. The simple assignment should be proved successfully (`Q.E.D.`).
+3. Open `swap.gcl`.
+4. Run **GCL: Reload** from the Command Palette to see its proof obligations and results.
 
 On macOS and Windows, the container still runs Linux. VS Code selects the Linux x64 or ARM64 extension to match the container's architecture.
 
@@ -35,12 +41,12 @@ On macOS and Windows, the container still runs Linux. VS Code selects the Linux 
 
 On this repository's GitHub page, choose **Code → Codespaces → Create codespace on main**. A GitHub account with available Codespaces usage is required; Docker is not needed on your computer.
 
-Wait for setup to finish, then open `increment.gcl` and run **GCL: Reload**. Codespaces uses the same Dev Container configuration as local VS Code.
+Wait for setup to finish, then open `swap.gcl` and run **GCL: Reload**. Codespaces uses the same Dev Container configuration as local VS Code.
 
 ## Examples
 
-- `increment.gcl`: a small assignment with a precondition and postcondition. Use this first to check that the environment works.
-- `gcd.gcl`: Euclid's algorithm with a loop invariant and bound. It declares `gcd` as a function without defining its properties, so some proof obligations are reported as `Falsifiable`. This example is not expected to prove every obligation successfully as written.
+- `swap.gcl`: swaps two Boolean variables without a temporary variable. Use this first to check that the environment works.
+- `fastmul.gcl`: multiplication using repeated doubling and halving, with a loop invariant and termination bound. The `even` and `odd` functions are declared without definitions.
 
 ## Extension version
 
