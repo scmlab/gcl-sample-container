@@ -2,7 +2,7 @@
 
 🎬 https://youtu.be/nEVupfZ357o
 
-Create a GCL codespace or resume your most recent one:
+Sign in to GitHub, then create a GCL codespace or resume your most recent one:
 
 https://codespaces.new/scmlab/gcl-sample-container?quickstart=1
 
