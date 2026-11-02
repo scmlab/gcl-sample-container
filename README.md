@@ -14,3 +14,4 @@ https://github.com/codespaces/
 
 To keep a copy of your work, right-click a `.gcl` file in the Explorer and choose **Download**. Alternatively, use your own **fork** (a copy of this repository under your GitHub account), then **commit and push** your changes to it.
 
+For running GCL directly in local Visual Studio Code, see https://github.com/scmlab/gcl-sample .
